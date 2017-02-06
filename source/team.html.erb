@@ -1,0 +1,8 @@
+<ul class="list-inline text-center">
+  <% ["boris", "seb", "romain"].each do |member| %>
+    <li>
+      <%= image_tag "https://www.bunnyholder.com/500/500", width: 200, class: "img-circle", alt: "foto" %>
+      <h3><%= member.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
